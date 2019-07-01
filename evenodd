@@ -1,5 +1,5 @@
-a=int(input("please enter a number:"));
+a=3
 if(a%2==0):
-   print("this number is even")
+   print("Even")
 else:
-   print("this number is odd")
+   print("Odd")
