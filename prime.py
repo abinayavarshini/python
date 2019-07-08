@@ -1,7 +1,7 @@
-vl=int(input())
-if vl > 1:
-    for hy in range(2,v1):
-        if(vl%hy==0):
+rm=int(input())
+if rm > 1:
+    for dj in range(2,rm):
+        if(rm%dj==0):
             print('no')
             break
     else:
