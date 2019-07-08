@@ -1,4 +1,4 @@
-mo,df=map(int,input().split())
-for lp in range(mo+1,df):
-    if(lp%2!=0):
-        print(lp,end=" ")
+ai,fg=map(int,input().split())
+for ha in range(ai+1,fg):
+    if(ha%2!=0):
+        print(ha,end=" ")
