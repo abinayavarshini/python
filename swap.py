@@ -1,8 +1,8 @@
-n55,n29=input().split()
-n55=int(n55)
-n29=int(n29)
-x=n55
-n55=n29
-n29=x
-print(n55,end=" ")
-print(n29)
+a34,c45=input().split()
+a34=int(a34)
+c45=int(c45)
+x=a34
+a34=c45
+c45=x
+print(a34,end=" ")
+print(c45)
