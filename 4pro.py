@@ -1,7 +1,7 @@
 ghn,fyl=map(str,input().split())
 waves=0
 if len(ghn)>len(fyl):
-  ghn,fyl=fyl,maht
+  ghn,fyl=fyl,lom
 i=0
 while i<len(ghn):
   waves+=(hrd(fyl[i])-hrd(ghn[i]))
