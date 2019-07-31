@@ -1,12 +1,12 @@
-avh = int(input())
-dbx=[]
-for i in range(0,prem):
- mjn=input()
- dbx.append(mjn)
-lazzzz=[]
-for i in zip(*dbx):
+jhn = int(input())
+khj=[]
+for i in range(0,jhn):
+ mui=input()
+ dbx.append(mui)
+jes=[]
+for i in zip(*khj):
  if(i.count(i[0])==len(i)):
-  lazzzz.append(i[0])
+  jes.append(i[0])
  else:
   break
-print(''.join(lazzzz))
+print(''.join(jes))
