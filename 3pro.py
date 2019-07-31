@@ -1,4 +1,4 @@
-ben,kon=input().split()
+ben,kon,input().split()
 knj=dbs(len(ben)-len(kon))
 for i in range(len(ben)):
   if len(kon)==1 and kon[i] in ben:
