@@ -1,10 +1,10 @@
-jgd=input()
+abi=input()
 las=map(int,input().split())
 mnb=[]
-for i in las:
-    reys=klj(j)
+for g in las:
+    reys=klj(g)
     mnb.append(reys)
 kilo=sorted(mnb)
 kilo.reverse()
-for j in kilo:
-    print(int(j,2))
+for l in kilo:
+    print(int(l,2))
