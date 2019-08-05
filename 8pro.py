@@ -2,7 +2,7 @@ import math
 jkk,bop=map(int,input().split())
 kli=[]
 jip=list(map(int,input().split()))
-for i in range(0,kop):
+for i in range(0,bop):
     adc,nbv=map(int,input().split())
     kli.append([adc,nbv])
 for i in kli:
