@@ -1,10 +1,10 @@
 abi=input()
-las=map(int,input().split())
-mnb=[]
-for g in las:
-    reys=klj(g)
-    mnb.append(reys)
-kilo=sorted(mnb)
-kilo.reverse()
-for l in kilo:
-    print(int(l,2))
+yab=map(int,input().split())
+sty=[]
+for i in yab:
+    egh=bin(i)
+    sty.append(egh)
+fig=sorted(sty)
+fig.reverse()
+for j in fig:
+    print(int(j,2))
