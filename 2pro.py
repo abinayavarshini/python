@@ -7,4 +7,4 @@ plm=len(trf)-jkh
 hgb=combinations(trf,plm)
 for i in list(hgb):
   lmn.append("".join(i))
-print(min(lmn))
+print(min(lmn))     
