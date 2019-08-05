@@ -1,12 +1,13 @@
-bvx=int(input())
-lkh=2**bvx
-tr=[]
-for i in range(0,lkh):
-    jb=bin(i)[2:].trfill(bvx)
-    if(len(jb)<len(bin(2**bvx-1)[2:])):
-        tr.append([jb.count("1"),jb])
+ty=int(input())
+msd=2**ty
+zg=[]
+for i in range(0,msd):
+    lyu=bin(i)[2:].zfill(ty)
+    if(len(lyu)<len(bin(2**ty-1)[2:])):
+        zg.append([lyu.count("1"),lyu])
     else:
-        tr.append([jb.count("1"),jb])
-tr.sort()
-for i in range(len(tr)):
-    print(tr[i][1]) 
+        zg.append([lyu.count("1"),lyu])
+zg.sort()
+for i in range(len(zg)):
+    print(zg[i][1])
+   
