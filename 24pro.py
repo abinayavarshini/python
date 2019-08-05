@@ -8,5 +8,5 @@ for i in range(0,lkh):
     else:
         tr.append([jh.count("1"),jh])
 tr.sort()
-for i in range(len(z)):
+for i in range(len(tr)):
     print(tr[i][1]) 
