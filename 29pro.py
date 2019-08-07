@@ -11,5 +11,5 @@ while tuo<90 and tuo<dse:
     pot.append(dse-tuo)
   tuo+=1
 print(wer)
-for tuo in boh:
+for tuo in pot:
   print(tuo)
